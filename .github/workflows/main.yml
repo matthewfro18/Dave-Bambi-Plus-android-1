@@ -254,10 +254,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        
-      - name: User defaults from command line
-        with:
-         IDEPackageSupportUseBuiltinSCM: 'YES'
     
       - name: Build settings from command line
         with:
