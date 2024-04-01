@@ -288,12 +288,8 @@ jobs:
           haxelib list
       - name: Build settings from command line
         with:
-         PLATFORM_NAME:
-           'iphoneos'
-         SDKROOT: 
-            'iphoneos16.2'
-      - name: Install Haxelib
-      
+         PLATFORM_NAME: 'iphoneos'
+         SDKROOT: 'iphoneos16.2'
       - name: Skip SScript setup mode
         run: echo 'oy9:showMacroty8:loopCosti25y10:includeAllfg' >> ~/settings.cocoa
       - name: Create Version Tag
